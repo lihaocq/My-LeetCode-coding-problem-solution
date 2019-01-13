@@ -19,10 +19,13 @@ The median is (2 + 3)/2 = 2.5
 ```
 
 ### Notes:
+Two methods are provided for this problem. The second problem provides one way to apply **binary search**. Also it provides **a very important thinking mode** to apply algorithm. 
 
-###### 1. Brute Force: My 1st solution
+##### 1. Brute Force: My 1st solution
 1) Combine the two lists to a new list. 2) sorted the list with python list.sort(), which sorts the list without generating a new list. 3) get the median of the list.
-Time complexity O(n^2). Space complexity O(1).
+The complexity is from **sorted()** function. 
+Time complexity O(n^2). 
+Space complexity O(n).
 The run time of the following code is -- 36 ms.
 ``` python 3
 class Solution:
@@ -39,3 +42,6 @@ class Solution:
 ```
 ##### 2. Binary Search
 https://leetcode.com/articles/median-of-two-sorted-arrays/
+
+The overall run time complexity should be O(log (m+n)) means that some thing like Binary Search are supposed to be applied to this problem.
+
