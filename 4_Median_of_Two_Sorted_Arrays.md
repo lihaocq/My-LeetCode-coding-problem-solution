@@ -59,19 +59,16 @@ B[0], B[1]...B[j-1] | B[j], B[j+1]...B[n]
 ```
 
 **Basic equations** to calculate i and j is that: 
+```
 
-1. i + j = (m+n)//2           It applies for situations that m+n is odd and m+n is even.
+1. i + j = (m+n)//2           
+It applies for situations that m+n is odd and m+n is even.
 
 2. If m+n is even,
-$$
-median=\frac{max(Left)+min(Right)}{2}
-$$
-
-  If m+n is odd,
-$$
-  median=min(Right)
-$$
-
+		median=(max(Left)+min(Right))/2
+   elif m+n is odd:
+   		median=min(Right)
+```
 **Procedure:** 
 
 ```
