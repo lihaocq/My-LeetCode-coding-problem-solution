@@ -64,7 +64,7 @@ B[0], B[1]...B[j-1] | B[j], B[j+1]...B[n]
 
 2. If m+n is even,
 $$
-  median=\frac{max(Left)+min(Right)}{2}
+median=\frac{max(Left)+min(Right)}{2}
 $$
 
   If m+n is odd,
@@ -160,3 +160,6 @@ class Solution:
                 if (m+n)%2 == 1:
                     return min_right
 ```
+
+
+
